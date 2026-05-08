@@ -1,0 +1,8 @@
+archivo = open(".\\archivos texto\\log.txt" , "a")
+texto = input("Ingrese una frase:")
+edad = int(input("Ingrese su edad:"))
+estatura = float(input("Ingrese su estatura:"))
+archivo.write(texto+"\n")
+archivo.write(str(edad)+"\n")
+archivo.write(str(estatura)+"\n")
+archivo.close()
